@@ -7,25 +7,25 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="471.0" prefWidth="507.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rubikssolver.rubikscubevisualizer.VisualizerController">
-    <Pane fx:id="cubeArea" layoutX="147.0" layoutY="49.0" prefHeight="180.0" prefWidth="433.0" />
+<AnchorPane prefHeight="700.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rubikssolver.rubikscubevisualizer.VisualizerController">
+    <Pane fx:id="cubeArea" layoutX="147.0" layoutY="72.0" prefHeight="180.0" prefWidth="433.0" />
 
     <Text layoutX="202.0" layoutY="27.0" text="Rubik's Cube Algorithm Visualizer" />
 
-    <ComboBox fx:id="categoryDropdown" layoutX="22.0" layoutY="282.0" prefHeight="26.0" prefWidth="113.0" promptText="Select Step" />
+    <ComboBox fx:id="categoryDropdown" layoutX="22.0" layoutY="389.0" prefHeight="26.0" prefWidth="113.0" promptText="Select Step" />
 
-    <ComboBox fx:id="algorithmDropdown" layoutX="145.0" layoutY="282.0" prefHeight="26.0" prefWidth="146.0" promptText="Select Algorithm" />
+    <ComboBox fx:id="algorithmDropdown" layoutX="145.0" layoutY="389.0" prefHeight="26.0" prefWidth="146.0" promptText="Select Algorithm" />
 
-    <Button fx:id="playButton" layoutX="312.0" layoutY="282.0" mnemonicParsing="false" text="Play" />
-    <Button fx:id="pauseButton" layoutX="360.0" layoutY="282.0" mnemonicParsing="false" text="Pause" />
-    <Button fx:id="stepForwardButton" layoutX="22.0" layoutY="401.0" mnemonicParsing="false" text="Step Forward" />
-    <Button fx:id="stepBackwardButton" layoutX="117.0" layoutY="401.0" mnemonicParsing="false" text="Step Backward" />
+    <Button fx:id="playButton" layoutX="22.0" layoutY="337.0" mnemonicParsing="false" text="Play" />
+    <Button fx:id="pauseButton" layoutX="79.0" layoutY="337.0" mnemonicParsing="false" text="Pause" />
+    <Button fx:id="stepForwardButton" layoutX="22.0" layoutY="499.0" mnemonicParsing="false" text="Step Forward" />
+    <Button fx:id="stepBackwardButton" layoutX="122.0" layoutY="499.0" mnemonicParsing="false" text="Step Backward" />
 
-    <Label fx:id="algorithmSequenceLabel" layoutX="22.0" layoutY="325.0" prefWidth="400.0" text="Algorithm: " wrapText="true" />
+    <Label fx:id="algorithmSequenceLabel" layoutX="22.0" layoutY="453.0" prefWidth="400.0" text="Algorithm: " wrapText="true" />
 
-    <Label fx:id="currentMoveLabel" layoutX="22.0" layoutY="362.0" prefHeight="17.0" prefWidth="125.0" text="Current Move: " />
-    <Label fx:id="stepCountLabel" layoutX="128.0" layoutY="362.0" prefHeight="17.0" prefWidth="78.0" text="Step: 0/0" />
+    <Label fx:id="currentMoveLabel" layoutX="22.0" layoutY="557.0" prefHeight="17.0" prefWidth="125.0" text="Current Move: " />
+    <Label fx:id="stepCountLabel" layoutX="130.0" layoutY="557.0" prefHeight="17.0" prefWidth="78.0" text="Step: 0/0" />
 
-    <Label fx:id="similarAlgorithmsLabel" layoutX="22.0" layoutY="440.0" prefWidth="400.0" text="Similar Algorithms: " wrapText="true" />
+    <Label fx:id="similarAlgorithmsLabel" layoutX="18.0" layoutY="623.0" prefWidth="400.0" text="Similar Algorithms: " wrapText="true" />
 
 </AnchorPane>
